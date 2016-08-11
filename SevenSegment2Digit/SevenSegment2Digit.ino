@@ -2,13 +2,13 @@
 #include <elapsedMillis.h>
 
 SevSeg sevseg;
-int counter = 1000;
+int counter = 99;
 elapsedMillis timeElapsed;
 
 void setup() {
-  byte numDigits = 4;
-  byte digitPins[] = {2,3,4,5};
-  byte segmentPins[] = {6,7,8,9,10,16,14,15};
+  byte numDigits = 2;
+  byte digitPins[] = {12,11};
+  byte segmentPins[] = {10,9,8,7,6,5,4,3};
   sevseg.begin(COMMON_ANODE, numDigits, digitPins, segmentPins);
 }
 
