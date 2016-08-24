@@ -60,5 +60,3 @@ void displayNumber(int value) {
   lc1.setDigit(0,0,tens,false);
   lc1.setDigit(0,1,ones,false);
 }
-
-
