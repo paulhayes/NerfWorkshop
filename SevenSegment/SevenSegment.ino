@@ -13,7 +13,7 @@ void setup() {
 }
 
 void loop() {
-  sevseg.setNumber(counter,-1);
+  sevseg.setNumber(counter,0);
   sevseg.refreshDisplay();
   if( timeElapsed >= 1000 ){
     timeElapsed = 0;
